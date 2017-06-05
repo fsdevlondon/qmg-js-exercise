@@ -1,0 +1,17 @@
+{
+  "name": "qmg-js-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "dev": "chokidar '**/*.js' -c 'ava'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "chokidar-cli": "^1.2.0"
+  }
+}
