@@ -5,7 +5,7 @@ const expectedOutput = require('../examples/expectedOutput.json');
 const questionSet = require('../examples/questionset.json');
 
 
-test('Normalize a simple example', t => {
+test.skip('Normalize a simple example', t => {
   const sample = [{
     "id": "question1",
     "type": "text",
@@ -22,7 +22,7 @@ test('Normalize a simple example', t => {
   t.deepEqual(result, output);
 });
 
-test('Normalize a type example', t => {
+test.skip('Normalize a type example', t => {
   const sample = [{
     "id": "question2",
     "type": "integer",
@@ -39,7 +39,8 @@ test('Normalize a type example', t => {
   t.deepEqual(result, output);
 });
 
-test.skip('flattens correctly the provided examples', t => {
+test('flattens correctly the provided examples', t => {
   const result = flattenTree(questionSet, answers);
+  console.log(result);
   t.deepEqual(result, expectedOutput);
 });
