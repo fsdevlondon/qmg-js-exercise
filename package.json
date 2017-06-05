@@ -1,14 +1,14 @@
 {
   "name": "qmg-js-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "Interview Test",
   "main": "index.js",
   "scripts": {
     "test": "ava",
     "dev": "chokidar '**/*.js' -c 'ava'"
   },
   "keywords": [],
-  "author": "",
+  "author": "MarcRivelles",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.19.1",
